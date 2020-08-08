@@ -1,5 +1,12 @@
 ### Hi there 👋
 
+- 🌱 I’m currently finishing my degree
+- 🎨 Watch my proyects deeper at [mariofdezzz.github.io](https://mariofdezzz.github.io/)
+- ⚡ Fun fact: I ❤️ 🐶s
+
+### 📈 Some Stats
+<img alt="My GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mariofdezzz&layout=compact">
+
 <!--
 **mariofdezzz/mariofdezzz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
