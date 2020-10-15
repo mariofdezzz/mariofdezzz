@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋🏽
 
 - 🌱 I’m currently finishing my degree
 - 🎨 Watch my proyects deeper at [mariofdezzz.github.io](https://mariofdezzz.github.io/)
