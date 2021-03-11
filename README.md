@@ -1,5 +1,5 @@
 ### 📈 Some Stats
-<img alt="My GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mariofdezzz&layout=compact">
+<img alt="My GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mariofdezzz&layout=compact&theme=dark">
 
 <!--
 **mariofdezzz/mariofdezzz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
