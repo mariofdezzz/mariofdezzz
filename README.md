@@ -1,5 +1,21 @@
-### 📈 Some Stats
-<img alt="My GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mariofdezzz&layout=compact&theme=dark">
+# Hi, I'm Mario! 👋🏼
+
+👨🏼‍🎓 Computer Graduate at [University of Las Palmas de Gran Canaria](https://www.ulpgc.es/)
+
+[![Gmail](https://img.shields.io/badge/Gmail-marioferrerofdez@gmail.com-red)](mailto:marioferrerofdez@gmail.com)
+[![GitHub](https://img.shields.io/github/followers/mariofdezzz?label=follow&style=social)](https://github.com/mariofdezzz)
+
+### ⚡ About me...
+
+```js
+const mario = {
+  code: [JavaScript, TypeScript, HTML, CSS, Python, Java, SQL],
+  tools: [Vue, Vuex, Node, Express, SCSS, Electron, Swing, Bash],
+  workingOn: aoct
+}
+```
+
+---
 
 <!--
 **mariofdezzz/mariofdezzz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,4 +30,8 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+
+### 📈 Some Stats
+<img alt="My GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mariofdezzz&layout=compact&theme=dark">
 -->
