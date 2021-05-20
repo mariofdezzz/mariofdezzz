@@ -10,7 +10,7 @@
 ```js
 const mario = {
   code: [JavaScript, TypeScript, HTML, CSS, Python, Java, SQL],
-  tools: [Vue, Vuex, Node, Express, SCSS, Electron, Swing, Bash],
+  tools: [Vue, Vuex, Node, Express, SCSS, JQuery, Electron, Swing, Bash],
   workingOn: aoct
 }
 ```
