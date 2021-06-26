@@ -2,7 +2,7 @@
 
 👨🏼‍🎓 Computer Graduate at [University of Las Palmas de Gran Canaria](https://www.ulpgc.es/)
 
-[![Gmail](https://img.shields.io/badge/Gmail-marioferrerofdez@gmail.com-red)](mailto:marioferrerofdez@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-marioferrerofdez-red)](mailto:marioferrerofdez@gmail.com)
 [![GitHub](https://img.shields.io/github/followers/mariofdezzz?label=follow&style=social)](https://github.com/mariofdezzz)
 
 ### ⚡ About me...
