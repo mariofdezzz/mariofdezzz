@@ -1,17 +1,11 @@
-# Hi, I'm Mario! 👋🏼
-
 👨🏼‍🎓 Computing Graduate at [University of Las Palmas de Gran Canaria](https://www.ulpgc.es/)
-
-[![Gmail](https://img.shields.io/badge/Gmail-marioferrerofdez-red)](mailto:marioferrerofdez@gmail.com)
-[![GitHub](https://img.shields.io/github/followers/mariofdezzz?label=follow&style=social)](https://github.com/mariofdezzz)
 
 ### ⚡ About me...
 
 ```js
 const mario = {
   code: [JavaScript, TypeScript, HTML, CSS, Python, Java, SQL],
-  tools: [Vue, Vuex, Node, Express, SCSS, JQuery, Electron, Swing, Bash],
-  workingOn: aoct
+  tools: [Vue, Vuex, Node, Express, SCSS, JQuery, Electron, Swing, Bash]
 }
 ```
 
