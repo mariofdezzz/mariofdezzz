@@ -10,7 +10,7 @@
     align="left"
   />
 </picture>
-<a href="https://mariofdezzz.com">
+<a href="https://mariofdezzz.dev">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
