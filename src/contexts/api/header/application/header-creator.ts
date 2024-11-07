@@ -1,14 +1,12 @@
 import { SVGElement } from '@/api/element/domain/svg-element.ts'
+import { gobalStyles } from '~/container/styles/global.ts'
 
 export class HeaderCreator {
   create(): string {
     return new SVGElement(
       `
       <style>
-        * {
-          font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-          color: green;
-        }
+        ${gobalStyles}
         header {
           display: grid;
           justify-content: space-between;
