@@ -3,6 +3,8 @@ import { Controller } from '~/controllers/controller.ts'
 export const AssetsGetController: Controller<'/assets/*'> = async (
   { request },
 ) => {
+  if (request.method === 'OPTIONS') return new Response()
+
   const url = new URL(request.url)
   const path = url.pathname.substring(1)
 

@@ -40,7 +40,7 @@ export const router = new Router({
       methods: ['GET', 'OPTIONS'],
       use: [
         cors({
-          origin: 'https://github.com',
+          origin: 'github.com',
         }),
       ],
     },
