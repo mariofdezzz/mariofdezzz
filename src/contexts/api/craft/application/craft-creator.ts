@@ -29,7 +29,6 @@ export class CraftCreator {
             muted="" 
             loop="" 
           >
-            <source src="http://localhost:8000/assets/halloween_dev.mov" />
             <source src="https://readme.mariofdezzz.com/assets/halloween_dev.mov" />
           </video>
         </li>

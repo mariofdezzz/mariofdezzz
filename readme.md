@@ -51,7 +51,7 @@
   <img
     src="https://readme.mariofdezzz.com/craft?theme=light"
     width="100%"
-    height="20"
+    height="150"
     align="left"
   />
 </picture>
