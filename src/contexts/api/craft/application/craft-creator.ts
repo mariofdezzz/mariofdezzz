@@ -28,8 +28,8 @@ export class CraftCreator {
             playinline="" 
             muted="" 
             loop="" 
+            src="https://readme.mariofdezzz.com/assets/halloween_dev.mov"
           >
-            <source src="https://readme.mariofdezzz.com/assets/halloween_dev.mov" />
           </video>
         </li>
       </ul>
