@@ -43,7 +43,7 @@
   </picture>
 </a>
 <img src="data:null;," width="100%" height="0" align="left" alt="" />
-<picture>
+<!-- <picture>
   <source
     media="(prefers-color-scheme: dark)"
     srcset="https://readme.mariofdezzz.com/craft?theme=dark"
@@ -54,4 +54,4 @@
     height="150"
     align="left"
   />
-</picture>
+</picture> -->

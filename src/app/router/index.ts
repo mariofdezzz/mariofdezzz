@@ -1,5 +1,5 @@
 import { Router } from 'toruk'
-import { cors, logger } from 'toruk/middlewares'
+import { logger } from 'toruk/middlewares'
 import { AssetsGetController } from '~/controllers/assets-get-controller.ts'
 import { CraftGetController } from '~/controllers/craft-get-controller.ts'
 import { HeaderGetController } from '~/controllers/header-get-controller.ts'
@@ -37,12 +37,6 @@ export const router = new Router({
     {
       path: '/assets/*',
       handler: AssetsGetController,
-      methods: ['GET', 'OPTIONS'],
-      use: [
-        cors({
-          origin: 'github.com',
-        }),
-      ],
     },
   ],
   use: [
