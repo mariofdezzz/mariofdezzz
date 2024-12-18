@@ -43,6 +43,22 @@
   </picture>
 </a>
 <img src="data:null;," width="100%" height="0" align="left" alt="" />
+<a href="https://substack.com/@mariofdezzz">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://readme.mariofdezzz.com/link/substack?theme=dark"
+    />
+    <img
+      src="https://readme.mariofdezzz.com/link/substack?theme=light&i=1"
+      alt="visit my Substack profile"
+      width="100"
+      height="18"
+      align="left"
+    />
+  </picture>
+</a>
+<img src="data:null;," width="100%" height="0" align="left" alt="" />
 <!-- <picture>
   <source
     media="(prefers-color-scheme: dark)"
