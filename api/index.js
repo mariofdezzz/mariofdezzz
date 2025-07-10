@@ -13,7 +13,7 @@ const app = express();
 app.use(compression());
 app.use(
   "/",
-  serveStatic(resolve("dist/static"), {
+  serveStatic(resolve("../dist/static"), {
     index: false,
     extensions: ["html"],
     setHeaders(res) {
