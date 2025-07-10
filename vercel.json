@@ -6,7 +6,7 @@
       "use": "@vercel/node"
     }
   ],
-  "buildCommand": "npm install && npm run generate",
+  "buildCommand": "npm install && npm run generate && mv dist/static api",
   "routes": [
     {
       "src": "/(.*)",
