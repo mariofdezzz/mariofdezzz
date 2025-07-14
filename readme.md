@@ -43,7 +43,7 @@
   </picture>
 </a>
 <img src="data:null;," width="100%" height="0" align="left" alt="" />
-<a href="https://substack.com/@mariofdezzz">
+<a href="https://substack.com/@mariofdezzz" style="margin-bottom: 5px">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
@@ -66,7 +66,6 @@
     width="100%"
     height="40"
     align="left"
-    style="padding-top: 5px;"
   />
 </picture>
 <img src="data:null;," width="100%" height="0" align="left" alt="" />

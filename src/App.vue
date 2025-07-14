@@ -9,7 +9,7 @@
 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  color: #c38001;
+  color: #e7a100;
 }
 
 [data-theme="dark"] {
