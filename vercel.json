@@ -2,15 +2,19 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/index.js",
-      "use": "@vercel/node"
+      "src": "dist/**",
+      "use": "@vercel/static"
     }
   ],
-  "buildCommand": "npm install && npm run generate && mv dist/static api",
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/api/index.js"
+      "headers": {
+        "pragma": "no-cache"
+      },
+      "dest": "/dist/$1"
     }
-  ]
+  ],
+  "buildCommand": "npm install && npm run generate && for f in dist/static/*.html; do mv -- \"$f\" \"${f%.html}.svg\"; done",
+  "outputDirectory": "dist"
 }
