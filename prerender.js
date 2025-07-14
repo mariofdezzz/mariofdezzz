@@ -42,4 +42,14 @@ const routesToPrerender = fs
   fs.rmSync(toAbsolute("dist/static/assets"), { recursive: true });
   fs.rmSync(toAbsolute("dist/static/index.html"), { recursive: true });
   fs.rmSync(toAbsolute("dist/server"), { recursive: true });
+  fs.cpSync(toAbsolute("dist/static"), toAbsolute("dist"), { recursive: true });
+  fs.rmSync(toAbsolute("dist/static"), { recursive: true });
+  fs.readdirSync(toAbsolute("dist")).forEach((file) => {
+    if (file.endsWith(".html")) {
+      fs.renameSync(
+        toAbsolute(`dist/${file}`),
+        toAbsolute(`dist/${file.replace(/\.html$/, ".svg")}`)
+      );
+    }
+  });
 })();

@@ -2,8 +2,9 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "installCommand": "npm install",
-  "buildCommand": "npm run generate && mv dist/static/* dist && for f in dist/*.html; do mv -- \"$f\" \"${f%.html}.svg\"; done",
+  "buildCommand": "npm run generate",
   "outputDirectory": "dist",
+  "cleanUrls": true,
   "headers": [
     {
       "source": "/(.*)",
