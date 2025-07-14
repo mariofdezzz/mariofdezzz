@@ -23,69 +23,56 @@ import TauriIcon from "../components/icons/tauri.vue";
 import TypescriptIcon from "../components/icons/typescript.vue";
 import VercelIcon from "../components/icons/vercel.vue";
 import VueuseIcon from "../components/icons/vueuse.vue";
+
+const carrouselItems = [
+  TypescriptIcon,
+  JavascriptIcon,
+  CssIcon,
+  TailwindIcon,
+  NuxtIcon,
+  PiniaIcon,
+  VueuseIcon,
+  AstroIcon,
+
+  TanstackIcon,
+  GraphqlIcon,
+  DenoIcon,
+  ExpressIcon,
+  HonoIcon,
+  NestIcon,
+  TauriIcon,
+
+  MongodbIcon,
+  PostgresqlIcon,
+
+  FirebaseIcon,
+  VercelIcon,
+  CloudflareIcon,
+
+  JwtIcon,
+  PlaywrightIcon,
+  DockerIcon,
+  ChartjsIcon,
+];
 </script>
 
 <template>
   <div class="carousel-wrapper">
     <div class="carousel-track" id="carousel-track">
-      <TypescriptIcon />
-      <JavascriptIcon />
-      <CssIcon />
-      <TailwindIcon />
-      <NuxtIcon />
-      <PiniaIcon />
-      <VueuseIcon />
-      <AstroIcon />
+      <component
+        v-for="(Icon, index) in carrouselItems"
+        :key="index"
+        class="carousel-item"
+        :is="Icon"
+      />
 
-      <TanstackIcon />
-      <GraphqlIcon />
-      <DenoIcon />
-      <ExpressIcon />
-      <HonoIcon />
-      <NestIcon />
-      <TauriIcon />
-
-      <MongodbIcon />
-      <PostgresqlIcon />
-
-      <FirebaseIcon />
-      <VercelIcon />
-      <CloudflareIcon />
-
-      <JwtIcon />
-      <PlaywrightIcon />
-      <DockerIcon />
-      <ChartjsIcon />
-
-      <!-- Loop -->
-      <TypescriptIcon />
-      <JavascriptIcon />
-      <CssIcon />
-      <TailwindIcon />
-      <NuxtIcon />
-      <PiniaIcon />
-      <VueuseIcon />
-      <AstroIcon />
-
-      <TanstackIcon />
-      <GraphqlIcon />
-      <DenoIcon />
-      <ExpressIcon />
-      <HonoIcon />
-      <NestIcon />
-      <TauriIcon />
-
-      <MongodbIcon />
-      <PostgresqlIcon />
-
-      <FirebaseIcon />
-      <VercelIcon />
-      <CloudflareIcon />
-
-      <JwtIcon />
-      <PlaywrightIcon />
-      <DockerIcon />
-      <ChartjsIcon />
+      <!-- Duplicate items for continuous scrolling effect -->
+      <component
+        v-for="(Icon, index) in carrouselItems"
+        :key="index"
+        class="carousel-item"
+        :is="Icon"
+      />
     </div>
   </div>
 </template>
@@ -105,22 +92,10 @@ import VueuseIcon from "../components/icons/vueuse.vue";
   animation: scroll 20s linear infinite;
 }
 
-.carousel-track > * {
+.carousel-item {
   flex: 0 0 auto;
-  width: 200px;
+  width: 20px;
   aspect-ratio: 1;
-  /*
-      width: 200px;
-      height: 120px;
-      margin: 0 10px;
-      background: #fff;
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.5rem;
-      color: #111;
-      font-weight: bold;*/
 }
 
 @keyframes scroll {
