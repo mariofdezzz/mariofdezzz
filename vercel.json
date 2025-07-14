@@ -15,6 +15,6 @@
       "dest": "/dist/$1"
     }
   ],
-  "buildCommand": "npm install && npm run generate && for f in dist/static/*.html; do mv -- \"$f\" \"${f%.html}.svg\"; done",
+  "buildCommand": "npm install && npm run generate && mv dist/static/* dist",
   "outputDirectory": "dist"
 }
