@@ -31,7 +31,8 @@ const routesToPrerender = fs
 
     const html = template
       .replace(`<!--app-html-->`, appHtml)
-      .replace(`<!--app-css-->`, css);
+      .replace(`<!--app-css-->`, css)
+      .replaceAll("viewbox", "viewBox");
 
     const filePath = `dist/static${url === "/" ? "/index" : url}.html`;
     fs.writeFileSync(toAbsolute(filePath), html);
