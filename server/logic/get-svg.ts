@@ -15,11 +15,13 @@ export async function getSvg(html: string) {
   const _styles = await parseStyles([...styles]);
 
   return `
-    <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml">
-          ${[_root, _styles].join('\n')}
-        </div>
-    </foreignObject>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="100%">
+      <foreignObject width="100%" height="100%">
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            ${[_styles, _root].join('\n')}
+          </div>
+      </foreignObject>
+    </svg>
     `;
 }
 
