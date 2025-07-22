@@ -59,16 +59,16 @@
   </picture>
 </a>
 <img src="data:null;," width="100%" height="0" align="left" alt="" />
-<!-- <picture >
+<picture >
   <img
-    src="https://mariofdezzz.vercel.app/languages.svg"
+    src="https://mariofdezzz.vercel.app/api/languages"
     alt="Set of technologies I've used"
     width="100%"
     height="40"
     align="left"
   />
 </picture>
-<img src="data:null;," width="100%" height="0" align="left" alt="" /> -->
+<img src="data:null;," width="100%" height="0" align="left" alt="" />
 <!-- <picture>
   <source
     media="(prefers-color-scheme: dark)"
