@@ -2,13 +2,14 @@
 defineProps<{
   label: string;
 }>();
+
 const animationDelay = `${Math.random() * 5}s`;
 </script>
 
 <template>
   <a>
-    <span class="link_label" :style="{ animationDelay }">{{ label }}</span>
-    <span class="link_arrow">↗</span>
+    <span class="link_label">{{ label }}</span>
+    <span class="link_arrow" :style="{ animationDelay }">↗</span>
   </a>
 </template>
 
