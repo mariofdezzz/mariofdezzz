@@ -1,10 +1,10 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://mariofdezzz.vercel.app/header.svg"
+    srcset="https://mariofdezzz.vercel.app/api/header"
   />
   <img
-    src="https://mariofdezzz.vercel.app/header.svg"
+    src="https://mariofdezzz.vercel.app/api/header"
     width="100%"
     height="20"
     align="left"
@@ -14,11 +14,11 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://mariofdezzz.vercel.app/link-website.svg"
+      srcset="https://mariofdezzz.vercel.app/link/website"
       label="Visit"
     />
     <img
-      src="https://mariofdezzz.vercel.app/link-website.svg"
+      src="https://mariofdezzz.vercel.app/link/website"
       alt="visit my website"
       width="100"
       height="18px"
@@ -31,10 +31,10 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://mariofdezzz.vercel.app/link-linkedin.svg"
+      srcset="https://mariofdezzz.vercel.app/link/linked_in"
     />
     <img
-      src="https://mariofdezzz.vercel.app/link-linkedin.svg"
+      src="https://mariofdezzz.vercel.app/link/linked_in"
       alt="visit my LinkedIn profile"
       width="100"
       height="18"
@@ -47,10 +47,10 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://mariofdezzz.vercel.app/link-substack.svg"
+      srcset="https://mariofdezzz.vercel.app/link/substack"
     />
     <img
-      src="https://mariofdezzz.vercel.app/link-substack.svg"
+      src="https://mariofdezzz.vercel.app/link/substack"
       alt="visit my Substack profile"
       width="100"
       height="18"
