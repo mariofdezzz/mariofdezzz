@@ -58,7 +58,7 @@
     />
   </picture>
 </a>
-<img src="data:null;," width="100%" height="0" align="left" alt="" />
+<img src="data:null;," width="100%" height="0" align="left" alt="" style="margin-bottom: 10px" />
 <picture >
   <img
     src="https://mariofdezzz.vercel.app/api/languages"
